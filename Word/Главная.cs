@@ -41,14 +41,12 @@ namespace Word
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Главная главная = new Главная();
-            главная.Size = new Size(5803, 4050);
+            
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Главная главная = new Главная();
-            главная.Hide();
+            
         }
     }
 }
