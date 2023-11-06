@@ -72,14 +72,27 @@
             button2 = new Button();
             button1 = new Button();
             label1 = new Label();
-            tableLayoutPanel3 = new TableLayoutPanel();
             tableLayoutPanel1 = new TableLayoutPanel();
-            tableLayoutPanel4 = new TableLayoutPanel();
-            richTextBox1 = new RichTextBox();
-            vScrollBar1 = new VScrollBar();
-            tableLayoutPanel5 = new TableLayoutPanel();
-            button29 = new Button();
+            tableLayoutPanel3 = new TableLayoutPanel();
+            panel14 = new Panel();
+            pictureBox1 = new PictureBox();
             button30 = new Button();
+            panel19 = new Panel();
+            panel15 = new Panel();
+            panel20 = new Panel();
+            button33 = new Button();
+            button32 = new Button();
+            panel18 = new Panel();
+            panel17 = new Panel();
+            button31 = new Button();
+            button29 = new Button();
+            tableLayoutPanel5 = new TableLayoutPanel();
+            comboBox2 = new ComboBox();
+            comboBox1 = new ComboBox();
+            openFileDialog1 = new OpenFileDialog();
+            saveFileDialog1 = new SaveFileDialog();
+            panel16 = new Panel();
+            richTextBox1 = new RichTextBox();
             tableLayoutPanel2.SuspendLayout();
             panel13.SuspendLayout();
             panel11.SuspendLayout();
@@ -93,10 +106,13 @@
             panel3.SuspendLayout();
             panel6.SuspendLayout();
             panel1.SuspendLayout();
-            tableLayoutPanel3.SuspendLayout();
             tableLayoutPanel1.SuspendLayout();
-            tableLayoutPanel4.SuspendLayout();
+            tableLayoutPanel3.SuspendLayout();
+            panel14.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel15.SuspendLayout();
             tableLayoutPanel5.SuspendLayout();
+            panel16.SuspendLayout();
             SuspendLayout();
             // 
             // tableLayoutPanel2
@@ -126,11 +142,11 @@
             tableLayoutPanel2.Controls.Add(panel3, 0, 0);
             tableLayoutPanel2.Controls.Add(panel6, 3, 0);
             tableLayoutPanel2.Dock = DockStyle.Fill;
-            tableLayoutPanel2.Location = new Point(3, 59);
+            tableLayoutPanel2.Location = new Point(3, 63);
             tableLayoutPanel2.Name = "tableLayoutPanel2";
             tableLayoutPanel2.RowCount = 1;
             tableLayoutPanel2.RowStyles.Add(new RowStyle(SizeType.Percent, 100F));
-            tableLayoutPanel2.Size = new Size(1797, 48);
+            tableLayoutPanel2.Size = new Size(1797, 73);
             tableLayoutPanel2.TabIndex = 5;
             // 
             // panel13
@@ -141,7 +157,7 @@
             panel13.Location = new Point(1071, 0);
             panel13.Margin = new Padding(0);
             panel13.Name = "panel13";
-            panel13.Size = new Size(90, 48);
+            panel13.Size = new Size(90, 73);
             panel13.TabIndex = 7;
             // 
             // button26
@@ -154,7 +170,7 @@
             button26.Location = new Point(0, 0);
             button26.Margin = new Padding(0);
             button26.Name = "button26";
-            button26.Size = new Size(90, 48);
+            button26.Size = new Size(90, 73);
             button26.TabIndex = 2;
             button26.Text = "Acrobat";
             button26.UseVisualStyleBackColor = true;
@@ -168,7 +184,7 @@
             button27.Location = new Point(0, 0);
             button27.Margin = new Padding(0);
             button27.Name = "button27";
-            button27.Size = new Size(90, 48);
+            button27.Size = new Size(90, 73);
             button27.TabIndex = 1;
             button27.Text = "Файл";
             button27.UseVisualStyleBackColor = true;
@@ -181,7 +197,7 @@
             panel11.Location = new Point(876, 0);
             panel11.Margin = new Padding(0);
             panel11.Name = "panel11";
-            panel11.Size = new Size(91, 48);
+            panel11.Size = new Size(91, 73);
             panel11.TabIndex = 6;
             // 
             // button22
@@ -194,7 +210,7 @@
             button22.Location = new Point(0, 0);
             button22.Margin = new Padding(0);
             button22.Name = "button22";
-            button22.Size = new Size(91, 48);
+            button22.Size = new Size(91, 73);
             button22.TabIndex = 2;
             button22.Text = "Вид";
             button22.UseVisualStyleBackColor = true;
@@ -208,7 +224,7 @@
             button23.Location = new Point(0, 0);
             button23.Margin = new Padding(0);
             button23.Name = "button23";
-            button23.Size = new Size(91, 48);
+            button23.Size = new Size(91, 73);
             button23.TabIndex = 1;
             button23.Text = "Файл";
             button23.UseVisualStyleBackColor = true;
@@ -221,7 +237,7 @@
             panel10.Location = new Point(967, 0);
             panel10.Margin = new Padding(0);
             panel10.Name = "panel10";
-            panel10.Size = new Size(104, 48);
+            panel10.Size = new Size(104, 73);
             panel10.TabIndex = 6;
             // 
             // button20
@@ -234,7 +250,7 @@
             button20.Location = new Point(0, 0);
             button20.Margin = new Padding(0);
             button20.Name = "button20";
-            button20.Size = new Size(104, 48);
+            button20.Size = new Size(104, 73);
             button20.TabIndex = 2;
             button20.Text = "Справка";
             button20.UseVisualStyleBackColor = true;
@@ -248,7 +264,7 @@
             button21.Location = new Point(0, 0);
             button21.Margin = new Padding(0);
             button21.Name = "button21";
-            button21.Size = new Size(104, 48);
+            button21.Size = new Size(104, 73);
             button21.TabIndex = 1;
             button21.Text = "Файл";
             button21.UseVisualStyleBackColor = true;
@@ -261,7 +277,7 @@
             panel4.Location = new Point(90, 0);
             panel4.Margin = new Padding(0);
             panel4.Name = "panel4";
-            panel4.Size = new Size(90, 48);
+            panel4.Size = new Size(90, 73);
             panel4.TabIndex = 4;
             // 
             // button8
@@ -273,7 +289,7 @@
             button8.Location = new Point(0, 0);
             button8.Margin = new Padding(0);
             button8.Name = "button8";
-            button8.Size = new Size(90, 44);
+            button8.Size = new Size(90, 69);
             button8.TabIndex = 1;
             button8.Text = "Главная";
             button8.UseVisualStyleBackColor = true;
@@ -283,7 +299,7 @@
             panel5.BackColor = Color.SteelBlue;
             panel5.Dock = DockStyle.Bottom;
             panel5.ForeColor = Color.Black;
-            panel5.Location = new Point(0, 44);
+            panel5.Location = new Point(0, 69);
             panel5.Name = "panel5";
             panel5.Size = new Size(90, 4);
             panel5.TabIndex = 2;
@@ -296,7 +312,7 @@
             panel2.Location = new Point(180, 0);
             panel2.Margin = new Padding(0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(90, 48);
+            panel2.Size = new Size(90, 73);
             panel2.TabIndex = 4;
             // 
             // button10
@@ -309,7 +325,7 @@
             button10.Location = new Point(0, 0);
             button10.Margin = new Padding(0);
             button10.Name = "button10";
-            button10.Size = new Size(90, 48);
+            button10.Size = new Size(90, 73);
             button10.TabIndex = 2;
             button10.Text = "Вставка";
             button10.UseVisualStyleBackColor = true;
@@ -323,7 +339,7 @@
             button11.Location = new Point(0, 0);
             button11.Margin = new Padding(0);
             button11.Name = "button11";
-            button11.Size = new Size(90, 48);
+            button11.Size = new Size(90, 73);
             button11.TabIndex = 1;
             button11.Text = "Файл";
             button11.UseVisualStyleBackColor = true;
@@ -336,7 +352,7 @@
             panel9.Location = new Point(695, 0);
             panel9.Margin = new Padding(0);
             panel9.Name = "panel9";
-            panel9.Size = new Size(181, 48);
+            panel9.Size = new Size(181, 73);
             panel9.TabIndex = 6;
             // 
             // button18
@@ -349,7 +365,7 @@
             button18.Location = new Point(0, 0);
             button18.Margin = new Padding(0);
             button18.Name = "button18";
-            button18.Size = new Size(181, 48);
+            button18.Size = new Size(181, 73);
             button18.TabIndex = 2;
             button18.Text = "Рецензирование";
             button18.UseVisualStyleBackColor = true;
@@ -363,7 +379,7 @@
             button19.Location = new Point(0, 0);
             button19.Margin = new Padding(0);
             button19.Name = "button19";
-            button19.Size = new Size(181, 48);
+            button19.Size = new Size(181, 73);
             button19.TabIndex = 1;
             button19.Text = "Файл";
             button19.UseVisualStyleBackColor = true;
@@ -376,7 +392,7 @@
             panel8.Location = new Point(497, 0);
             panel8.Margin = new Padding(0);
             panel8.Name = "panel8";
-            panel8.Size = new Size(90, 48);
+            panel8.Size = new Size(90, 73);
             panel8.TabIndex = 6;
             // 
             // button16
@@ -389,7 +405,7 @@
             button16.Location = new Point(0, 0);
             button16.Margin = new Padding(0);
             button16.Name = "button16";
-            button16.Size = new Size(90, 48);
+            button16.Size = new Size(90, 73);
             button16.TabIndex = 2;
             button16.Text = "Ссылки";
             button16.UseVisualStyleBackColor = true;
@@ -403,7 +419,7 @@
             button17.Location = new Point(0, 0);
             button17.Margin = new Padding(0);
             button17.Name = "button17";
-            button17.Size = new Size(90, 48);
+            button17.Size = new Size(90, 73);
             button17.TabIndex = 1;
             button17.Text = "Файл";
             button17.UseVisualStyleBackColor = true;
@@ -416,7 +432,7 @@
             panel12.Location = new Point(587, 0);
             panel12.Margin = new Padding(0);
             panel12.Name = "panel12";
-            panel12.Size = new Size(108, 48);
+            panel12.Size = new Size(108, 73);
             panel12.TabIndex = 6;
             // 
             // button24
@@ -429,7 +445,7 @@
             button24.Location = new Point(0, 0);
             button24.Margin = new Padding(0);
             button24.Name = "button24";
-            button24.Size = new Size(108, 48);
+            button24.Size = new Size(108, 73);
             button24.TabIndex = 2;
             button24.Text = "Рассылки";
             button24.UseVisualStyleBackColor = true;
@@ -443,7 +459,7 @@
             button25.Location = new Point(0, 0);
             button25.Margin = new Padding(0);
             button25.Name = "button25";
-            button25.Size = new Size(108, 48);
+            button25.Size = new Size(108, 73);
             button25.TabIndex = 1;
             button25.Text = "Файл";
             button25.UseVisualStyleBackColor = true;
@@ -456,7 +472,7 @@
             panel7.Location = new Point(407, 0);
             panel7.Margin = new Padding(0);
             panel7.Name = "panel7";
-            panel7.Size = new Size(90, 48);
+            panel7.Size = new Size(90, 73);
             panel7.TabIndex = 6;
             // 
             // button14
@@ -469,7 +485,7 @@
             button14.Location = new Point(0, 0);
             button14.Margin = new Padding(0);
             button14.Name = "button14";
-            button14.Size = new Size(90, 48);
+            button14.Size = new Size(90, 73);
             button14.TabIndex = 2;
             button14.Text = "Макет";
             button14.UseVisualStyleBackColor = true;
@@ -483,7 +499,7 @@
             button15.Location = new Point(0, 0);
             button15.Margin = new Padding(0);
             button15.Name = "button15";
-            button15.Size = new Size(90, 48);
+            button15.Size = new Size(90, 73);
             button15.TabIndex = 1;
             button15.Text = "Файл";
             button15.UseVisualStyleBackColor = true;
@@ -496,7 +512,7 @@
             panel3.Location = new Point(0, 0);
             panel3.Margin = new Padding(0);
             panel3.Name = "panel3";
-            panel3.Size = new Size(90, 48);
+            panel3.Size = new Size(90, 73);
             panel3.TabIndex = 3;
             // 
             // button9
@@ -509,10 +525,11 @@
             button9.Location = new Point(0, 0);
             button9.Margin = new Padding(0);
             button9.Name = "button9";
-            button9.Size = new Size(90, 48);
+            button9.Size = new Size(90, 73);
             button9.TabIndex = 2;
             button9.Text = "Файл";
             button9.UseVisualStyleBackColor = true;
+            button9.Click += button9_Click;
             // 
             // button7
             // 
@@ -523,7 +540,7 @@
             button7.Location = new Point(0, 0);
             button7.Margin = new Padding(0);
             button7.Name = "button7";
-            button7.Size = new Size(90, 48);
+            button7.Size = new Size(90, 73);
             button7.TabIndex = 1;
             button7.Text = "Файл";
             button7.UseVisualStyleBackColor = true;
@@ -536,7 +553,7 @@
             panel6.Location = new Point(270, 0);
             panel6.Margin = new Padding(0);
             panel6.Name = "panel6";
-            panel6.Size = new Size(137, 48);
+            panel6.Size = new Size(137, 73);
             panel6.TabIndex = 5;
             // 
             // button12
@@ -549,7 +566,7 @@
             button12.Location = new Point(0, 0);
             button12.Margin = new Padding(0);
             button12.Name = "button12";
-            button12.Size = new Size(137, 48);
+            button12.Size = new Size(137, 73);
             button12.TabIndex = 2;
             button12.Text = "Конструктор";
             button12.UseVisualStyleBackColor = true;
@@ -563,7 +580,7 @@
             button13.Location = new Point(0, 0);
             button13.Margin = new Padding(0);
             button13.Name = "button13";
-            button13.Size = new Size(137, 48);
+            button13.Size = new Size(137, 73);
             button13.TabIndex = 1;
             button13.Text = "Файл";
             button13.UseVisualStyleBackColor = true;
@@ -583,7 +600,7 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(0);
             panel1.Name = "panel1";
-            panel1.Size = new Size(1803, 56);
+            panel1.Size = new Size(1803, 60);
             panel1.TabIndex = 0;
             // 
             // button28
@@ -596,7 +613,7 @@
             button28.Location = new Point(237, 0);
             button28.Margin = new Padding(0);
             button28.Name = "button28";
-            button28.Size = new Size(79, 56);
+            button28.Size = new Size(79, 60);
             button28.TabIndex = 7;
             button28.Text = "≣";
             button28.UseVisualStyleBackColor = true;
@@ -612,7 +629,7 @@
             button6.Location = new Point(158, 0);
             button6.Margin = new Padding(0);
             button6.Name = "button6";
-            button6.Size = new Size(79, 56);
+            button6.Size = new Size(79, 60);
             button6.TabIndex = 6;
             button6.Text = "↻";
             button6.UseVisualStyleBackColor = true;
@@ -628,7 +645,7 @@
             button5.Location = new Point(79, 0);
             button5.Margin = new Padding(0);
             button5.Name = "button5";
-            button5.Size = new Size(79, 56);
+            button5.Size = new Size(79, 60);
             button5.TabIndex = 5;
             button5.Text = "↩";
             button5.UseVisualStyleBackColor = true;
@@ -644,9 +661,10 @@
             button4.Location = new Point(0, 0);
             button4.Margin = new Padding(0);
             button4.Name = "button4";
-            button4.Size = new Size(79, 56);
+            button4.Size = new Size(79, 60);
             button4.TabIndex = 4;
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -659,10 +677,11 @@
             button3.Location = new Point(1566, 0);
             button3.Margin = new Padding(0);
             button3.Name = "button3";
-            button3.Size = new Size(79, 56);
+            button3.Size = new Size(79, 60);
             button3.TabIndex = 3;
             button3.Text = "-";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -675,7 +694,7 @@
             button2.Location = new Point(1645, 0);
             button2.Margin = new Padding(0);
             button2.Name = "button2";
-            button2.Size = new Size(79, 56);
+            button2.Size = new Size(79, 60);
             button2.TabIndex = 2;
             button2.Text = "▢";
             button2.UseVisualStyleBackColor = true;
@@ -692,7 +711,7 @@
             button1.Location = new Point(1724, 0);
             button1.Margin = new Padding(0);
             button1.Name = "button1";
-            button1.Size = new Size(79, 56);
+            button1.Size = new Size(79, 60);
             button1.TabIndex = 1;
             button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
@@ -707,120 +726,253 @@
             label1.TabIndex = 0;
             label1.Text = "Документ1 - Word";
             // 
-            // tableLayoutPanel3
-            // 
-            tableLayoutPanel3.ColumnCount = 1;
-            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 10.5731773F));
-            tableLayoutPanel3.Controls.Add(tableLayoutPanel5, 0, 0);
-            tableLayoutPanel3.Dock = DockStyle.Fill;
-            tableLayoutPanel3.Location = new Point(3, 113);
-            tableLayoutPanel3.Name = "tableLayoutPanel3";
-            tableLayoutPanel3.RowCount = 1;
-            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel3.Size = new Size(1797, 179);
-            tableLayoutPanel3.TabIndex = 1;
-            // 
             // tableLayoutPanel1
             // 
             tableLayoutPanel1.BackColor = SystemColors.ButtonFace;
             tableLayoutPanel1.ColumnCount = 1;
-            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
+            tableLayoutPanel1.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 100F));
             tableLayoutPanel1.Controls.Add(panel1, 0, 0);
-            tableLayoutPanel1.Controls.Add(tableLayoutPanel3, 0, 2);
             tableLayoutPanel1.Controls.Add(tableLayoutPanel2, 0, 1);
+            tableLayoutPanel1.Controls.Add(tableLayoutPanel3, 0, 2);
             tableLayoutPanel1.Dock = DockStyle.Top;
             tableLayoutPanel1.Location = new Point(0, 0);
             tableLayoutPanel1.Name = "tableLayoutPanel1";
             tableLayoutPanel1.RowCount = 3;
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 51.09489F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 48.90511F));
-            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 184F));
-            tableLayoutPanel1.Size = new Size(1803, 295);
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 43.54839F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Percent, 56.4516144F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 157F));
+            tableLayoutPanel1.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel1.Size = new Size(1803, 297);
             tableLayoutPanel1.TabIndex = 6;
             // 
-            // tableLayoutPanel4
+            // tableLayoutPanel3
             // 
-            tableLayoutPanel4.ColumnCount = 3;
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 906F));
-            tableLayoutPanel4.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 469F));
-            tableLayoutPanel4.Controls.Add(richTextBox1, 1, 1);
-            tableLayoutPanel4.Controls.Add(vScrollBar1, 2, 1);
-            tableLayoutPanel4.Dock = DockStyle.Fill;
-            tableLayoutPanel4.Location = new Point(0, 295);
-            tableLayoutPanel4.Name = "tableLayoutPanel4";
-            tableLayoutPanel4.RowCount = 3;
-            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Absolute, 980F));
-            tableLayoutPanel4.RowStyles.Add(new RowStyle(SizeType.Absolute, 34F));
-            tableLayoutPanel4.Size = new Size(1803, 1031);
-            tableLayoutPanel4.TabIndex = 7;
+            tableLayoutPanel3.ColumnCount = 7;
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 15.51481F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 84.48519F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 43F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 328F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 240F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 271F));
+            tableLayoutPanel3.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 100F));
+            tableLayoutPanel3.Controls.Add(panel14, 0, 0);
+            tableLayoutPanel3.Controls.Add(panel15, 1, 0);
+            tableLayoutPanel3.Dock = DockStyle.Fill;
+            tableLayoutPanel3.Location = new Point(3, 142);
+            tableLayoutPanel3.Name = "tableLayoutPanel3";
+            tableLayoutPanel3.RowCount = 1;
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel3.RowStyles.Add(new RowStyle(SizeType.Absolute, 20F));
+            tableLayoutPanel3.Size = new Size(1797, 152);
+            tableLayoutPanel3.TabIndex = 6;
             // 
-            // richTextBox1
+            // panel14
             // 
-            richTextBox1.Dock = DockStyle.Fill;
-            richTextBox1.Location = new Point(431, 20);
-            richTextBox1.Name = "richTextBox1";
-            richTextBox1.Size = new Size(900, 974);
-            richTextBox1.TabIndex = 0;
-            richTextBox1.Text = "";
+            panel14.Controls.Add(pictureBox1);
+            panel14.Controls.Add(button30);
+            panel14.Controls.Add(panel19);
+            panel14.Dock = DockStyle.Fill;
+            panel14.Location = new Point(3, 3);
+            panel14.Name = "panel14";
+            panel14.Size = new Size(120, 146);
+            panel14.TabIndex = 0;
             // 
-            // vScrollBar1
+            // pictureBox1
             // 
-            vScrollBar1.Dock = DockStyle.Right;
-            vScrollBar1.Location = new Point(1777, 17);
-            vScrollBar1.Name = "vScrollBar1";
-            vScrollBar1.Size = new Size(26, 980);
-            vScrollBar1.TabIndex = 1;
-            // 
-            // tableLayoutPanel5
-            // 
-            tableLayoutPanel5.ColumnCount = 1;
-            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 50F));
-            tableLayoutPanel5.Controls.Add(button29, 0, 0);
-            tableLayoutPanel5.Controls.Add(button30, 0, 1);
-            tableLayoutPanel5.Dock = DockStyle.Left;
-            tableLayoutPanel5.Location = new Point(3, 3);
-            tableLayoutPanel5.Name = "tableLayoutPanel5";
-            tableLayoutPanel5.RowCount = 2;
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
-            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Absolute, 87F));
-            tableLayoutPanel5.Size = new Size(119, 173);
-            tableLayoutPanel5.TabIndex = 0;
-            // 
-            // button29
-            // 
-            button29.Dock = DockStyle.Top;
-            button29.Location = new Point(3, 3);
-            button29.Name = "button29";
-            button29.Size = new Size(113, 77);
-            button29.TabIndex = 0;
-            button29.UseVisualStyleBackColor = true;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(110, 75);
+            pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox1.TabIndex = 4;
+            pictureBox1.TabStop = false;
             // 
             // button30
             // 
-            button30.Dock = DockStyle.Top;
-            button30.Location = new Point(3, 89);
+            button30.Location = new Point(0, 81);
             button30.Name = "button30";
-            button30.Size = new Size(113, 60);
-            button30.TabIndex = 2;
+            button30.Size = new Size(110, 65);
+            button30.TabIndex = 5;
             button30.Text = "Вставить\r\n ∨";
             button30.UseVisualStyleBackColor = true;
-            button30.Click += button30_Click;
+            button30.Click += button30_Click_1;
+            // 
+            // panel19
+            // 
+            panel19.BackColor = Color.DimGray;
+            panel19.Location = new Point(116, 0);
+            panel19.Name = "panel19";
+            panel19.Size = new Size(2, 150);
+            panel19.TabIndex = 3;
+            // 
+            // panel15
+            // 
+            panel15.Controls.Add(panel20);
+            panel15.Controls.Add(button33);
+            panel15.Controls.Add(button32);
+            panel15.Controls.Add(panel18);
+            panel15.Controls.Add(panel17);
+            panel15.Controls.Add(button31);
+            panel15.Controls.Add(button29);
+            panel15.Controls.Add(tableLayoutPanel5);
+            panel15.Dock = DockStyle.Fill;
+            panel15.Location = new Point(126, 0);
+            panel15.Margin = new Padding(0);
+            panel15.Name = "panel15";
+            panel15.Size = new Size(688, 152);
+            panel15.TabIndex = 1;
+            // 
+            // panel20
+            // 
+            panel20.BackColor = Color.DimGray;
+            panel20.Location = new Point(676, 3);
+            panel20.Name = "panel20";
+            panel20.Size = new Size(3, 150);
+            panel20.TabIndex = 10;
+            // 
+            // button33
+            // 
+            button33.FlatAppearance.BorderSize = 0;
+            button33.FlatStyle = FlatStyle.Flat;
+            button33.Location = new Point(540, 3);
+            button33.Margin = new Padding(0);
+            button33.Name = "button33";
+            button33.Size = new Size(67, 45);
+            button33.TabIndex = 9;
+            button33.Text = "Aa ∨";
+            button33.UseVisualStyleBackColor = true;
+            // 
+            // button32
+            // 
+            button32.BackgroundImageLayout = ImageLayout.Center;
+            button32.FlatAppearance.BorderSize = 0;
+            button32.FlatStyle = FlatStyle.Flat;
+            button32.Image = (Image)resources.GetObject("button32.Image");
+            button32.Location = new Point(617, 7);
+            button32.Margin = new Padding(0);
+            button32.Name = "button32";
+            button32.Size = new Size(56, 38);
+            button32.TabIndex = 8;
+            button32.UseVisualStyleBackColor = true;
+            // 
+            // panel18
+            // 
+            panel18.BackColor = Color.DimGray;
+            panel18.Location = new Point(612, 3);
+            panel18.Name = "panel18";
+            panel18.Size = new Size(2, 42);
+            panel18.TabIndex = 7;
+            // 
+            // panel17
+            // 
+            panel17.BackColor = Color.DimGray;
+            panel17.Location = new Point(535, 3);
+            panel17.Name = "panel17";
+            panel17.Size = new Size(2, 42);
+            panel17.TabIndex = 6;
+            // 
+            // button31
+            // 
+            button31.FlatAppearance.BorderSize = 0;
+            button31.FlatStyle = FlatStyle.Flat;
+            button31.Font = new Font("Segoe UI", 8F, FontStyle.Regular, GraphicsUnit.Point);
+            button31.Location = new Point(477, 7);
+            button31.Margin = new Padding(0);
+            button31.Name = "button31";
+            button31.Size = new Size(55, 34);
+            button31.TabIndex = 5;
+            button31.Text = "A⋁";
+            button31.UseVisualStyleBackColor = true;
+            // 
+            // button29
+            // 
+            button29.FlatAppearance.BorderSize = 0;
+            button29.FlatStyle = FlatStyle.Flat;
+            button29.Font = new Font("Segoe UI", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            button29.Location = new Point(428, 3);
+            button29.Margin = new Padding(0);
+            button29.Name = "button29";
+            button29.Size = new Size(55, 34);
+            button29.TabIndex = 4;
+            button29.Text = "A^";
+            button29.UseVisualStyleBackColor = true;
+            // 
+            // tableLayoutPanel5
+            // 
+            tableLayoutPanel5.ColumnCount = 2;
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Percent, 51.7808228F));
+            tableLayoutPanel5.ColumnStyles.Add(new ColumnStyle(SizeType.Absolute, 165F));
+            tableLayoutPanel5.Controls.Add(comboBox2, 0, 0);
+            tableLayoutPanel5.Controls.Add(comboBox1, 1, 0);
+            tableLayoutPanel5.Location = new Point(3, 3);
+            tableLayoutPanel5.Name = "tableLayoutPanel5";
+            tableLayoutPanel5.RowCount = 1;
+            tableLayoutPanel5.RowStyles.Add(new RowStyle(SizeType.Percent, 50F));
+            tableLayoutPanel5.Size = new Size(422, 38);
+            tableLayoutPanel5.TabIndex = 3;
+            // 
+            // comboBox2
+            // 
+            comboBox2.Dock = DockStyle.Fill;
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { "Шрифты темы ↓", "", "Calibri Light (Заголовки)", "Calibri (Основной тест)", "Arial Black", "Bahnschrift SemiBold", "BankGothic Md BT" });
+            comboBox2.Location = new Point(0, 0);
+            comboBox2.Margin = new Padding(0);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(257, 33);
+            comboBox2.TabIndex = 2;
+            comboBox2.Text = "Calibri (Основной тест)";
+            // 
+            // comboBox1
+            // 
+            comboBox1.Dock = DockStyle.Right;
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "8", "9", "10", "11", "12", "14", "16", "18", "20", "22", "24", "26", "28", "36", "48", "72" });
+            comboBox1.Location = new Point(271, 0);
+            comboBox1.Margin = new Padding(0);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(151, 33);
+            comboBox1.TabIndex = 1;
+            comboBox1.Text = "8";
+            // 
+            // openFileDialog1
+            // 
+            openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // panel16
+            // 
+            panel16.AutoScroll = true;
+            panel16.Controls.Add(richTextBox1);
+            panel16.Dock = DockStyle.Fill;
+            panel16.Location = new Point(0, 297);
+            panel16.Name = "panel16";
+            panel16.Size = new Size(1803, 753);
+            panel16.TabIndex = 7;
+            // 
+            // richTextBox1
+            // 
+            richTextBox1.Location = new Point(451, 16);
+            richTextBox1.Name = "richTextBox1";
+            richTextBox1.Size = new Size(847, 780);
+            richTextBox1.TabIndex = 0;
+            richTextBox1.Text = "";
             // 
             // Главная
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Gainsboro;
-            ClientSize = new Size(1803, 1326);
-            Controls.Add(tableLayoutPanel4);
+            ClientSize = new Size(1803, 1050);
+            Controls.Add(panel16);
             Controls.Add(tableLayoutPanel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "Главная";
-            StartPosition = FormStartPosition.CenterParent;
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "                                                       CNUAERIVHEI                              FEWVCECD";
-            Load += Form1_Load;
             tableLayoutPanel2.ResumeLayout(false);
             panel13.ResumeLayout(false);
             panel11.ResumeLayout(false);
@@ -835,10 +987,13 @@
             panel6.ResumeLayout(false);
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            tableLayoutPanel3.ResumeLayout(false);
             tableLayoutPanel1.ResumeLayout(false);
-            tableLayoutPanel4.ResumeLayout(false);
+            tableLayoutPanel3.ResumeLayout(false);
+            panel14.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel15.ResumeLayout(false);
             tableLayoutPanel5.ResumeLayout(false);
+            panel16.ResumeLayout(false);
             ResumeLayout(false);
         }
 
@@ -886,13 +1041,26 @@
         private Button button26;
         private Button button27;
         private Button button28;
-        private TableLayoutPanel tableLayoutPanel3;
         private TableLayoutPanel tableLayoutPanel1;
-        private TableLayoutPanel tableLayoutPanel4;
-        private RichTextBox richTextBox1;
-        private VScrollBar vScrollBar1;
+        private TableLayoutPanel tableLayoutPanel3;
+        private Panel panel14;
+        private OpenFileDialog openFileDialog1;
+        private ComboBox comboBox1;
+        private ComboBox comboBox2;
         private TableLayoutPanel tableLayoutPanel5;
+        private Panel panel15;
         private Button button29;
+        private Button button31;
+        private Panel panel17;
+        private Panel panel18;
+        private Button button32;
+        private Button button33;
+        private PictureBox pictureBox1;
         private Button button30;
+        private Panel panel19;
+        private Panel panel20;
+        private SaveFileDialog saveFileDialog1;
+        private Panel panel16;
+        private RichTextBox richTextBox1;
     }
 }
