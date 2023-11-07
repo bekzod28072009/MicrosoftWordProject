@@ -27,9 +27,9 @@ namespace Word
 
         private void button4_Click(object sender, EventArgs e)
         {
-            StreamWriter streamWriter = new StreamWriter(richTextBox1.Text);
             saveFileDialog1.ShowDialog();
-
+            StreamWriter streamWriter = new StreamWriter(richTextBox1.Text);
+            streamWriter.Write(richTextBox1.Text);
         }
 
         private void button9_Click(object sender, EventArgs e)
@@ -41,12 +41,12 @@ namespace Word
 
         private void button2_Click(object sender, EventArgs e)
         {
-            
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            
+
         }
     }
 }
